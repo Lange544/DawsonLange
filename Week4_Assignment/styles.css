@@ -1,0 +1,16 @@
+body
+
+a:link /*unvisited*/
+{color: darkmagenta;}
+
+a:active 
+{color: red;}
+
+a:visited
+{color: green;}
+
+a:hover
+{color: brown}
+
+a:focus
+{color: aqua;}
