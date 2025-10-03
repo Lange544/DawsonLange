@@ -1,0 +1,68 @@
+:root {--bg-color: Aqua; 
+    --text-color:yellow;
+    --body-text-color: white;
+    --border-color:yellow;
+    --primary-color:yellow;
+    --hover-color: rgb(255, 255, 255); }
+
+
+
+
+
+
+body {background-color: var(--bg-color);
+    font-family:'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;color: var(--body-text-color);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    }
+
+h1 {color: var(--text-color);
+     font-size: clamp(4rem,7vw,6rem);
+     background-color: var(--bg-color);
+     color: var(--text-color);
+     border: 3px solid var(--border-color);
+     padding:8px;
+     margin-left: 5px;
+     margin-top: 1em;
+     margin-bottom: 0.5em;
+     border-radius: 10px;
+     box-shadow: 0 4px 10px rgba(0, 0,0,0.2);
+     text-align:center}
+
+h2 {border-bottom: 2px solid white;
+    border-bottom-width:2px;
+    padding-bottom: 10px;
+    text-align:center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+#Underline {text-decoration: underline;
+    text-underline-offset: 6px;
+    color: var(--text-color);
+    }
+
+a:hover {
+    color: var(--hover-color);
+    text-decoration: underline;
+    cursor: pointer;
+    border: bottom 2px solid var(--hover-color);}
+
+
+a  {font-size: 25px;
+    transition:all 0.3s ease;
+    color: var(--text-color);
+    font-weight: 500;
+    text-decoration: none;
+    border-bottom: 2pxs solid transparent;}
+
+@media (prefers-color-scheme: dark) /*dark theme*/
+{:root {--bg-color: rgb(0, 71, 71)  ;
+    --text-color: rgb(131, 131, 13);
+    --body-text-color: rgb(185, 185, 185);
+    --border-color: rgb(131, 131, 13);
+    --hover-color: yellow; }}
