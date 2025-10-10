@@ -1,0 +1,116 @@
+    body {background-color:#b7BEA0 ;}
+    
+    #settings-panel {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    width: 85%;
+    margin: 20px auto;
+    padding: 40px;
+    min-width: 250px;
+    text-align: center;
+    
+     }
+
+    h2{
+    margin-top: -30px;
+    color:#ECE4D9;
+    
+    }
+
+    .setting {
+    display:inline-flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color:#b18B7E;
+    font-weight:bold;
+    padding: 10px;
+    margin-bottom: 40px;
+    }
+
+
+    .setting a.toggle-button {
+        align-items: center;
+        width: 50px;
+        height: 24px;
+        background-color:#ABB5B6;
+        border-radius: 12px;
+        position: relative;
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.4);
+
+    }
+
+    .setting a.toggle-button::before {
+        content: '';
+        position: absolute;
+        height: 18px;
+        width: 18px;
+        background-color: white;
+        border-radius: 50%;
+        top: 3px;
+        left: 3px;
+    }
+
+    .setting a.toggle-button.active{
+        background-color:#b18B7E ;}
+    
+    .setting a.toggle-button.active::before{
+             transform: translateX(26px);
+    }
+
+    .setting a.toggle-button:hover {
+        box-shadow: 0 0 4px rgb(253, 253, 253);
+    }
+
+    .setting a.toggle-button:focus {
+        outline: none;
+        box-shadow: 0 0 0 2px #ECE4D9;}
+
+
+    a[target="_blank"]::after {
+        content: ' ↗';
+        font-size: 0.8em;
+        font-weight: normal;}
+
+    .policy-link-row {
+        display: block;
+        text-align: center;
+        margin-top: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+@media (max-width: 600px) {
+    #settings-panel {
+        width: 95%;
+    }
+
+    h2 {
+        font-size: 1.2em; 
+    }
+
+    .setting {
+        display: flex; 
+        justify-content: space-between; 
+        width: 90%; 
+        margin: 0 auto; 
+    }
+
+    .setting a.toggle-button {
+        width: 40px; 
+        height: 20px;
+        border-radius: 10px; 
+    }
+
+    .setting a.toggle-button::before {
+        height: 14px;
+        width: 14px;
+        top: 3px; 
+        left: 3px; 
+    }
+
+    .setting a.toggle-button.active::before {
+        transform: translateX(20px);
+    }
+}
