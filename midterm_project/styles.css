@@ -1,0 +1,498 @@
+*, *::before, *::after {box-sizing: border-box;}
+
+
+:root {
+    --primary-color: #2d336b;
+    --secondary-color: #fff2f2;
+    --text-color: #fff2f2;
+    --text-color-2: #2d336b;
+    --link-color: #2d336b;
+    --visited-link: grey ;
+    --textbox-border:#2d336b;
+    font-family: sans-serif, Helvetica;
+}
+
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+
+
+}
+
+/*all*/
+.title {  /*LANGE DESING*/
+    font-size: 3.5em;
+    color:var(--text-color);
+    margin: 1.5rem auto;
+    padding: 0.3125rem;
+    width: 100%;
+    text-align: center;
+    text-shadow: 0.5rem 0.5rem 0.75rem black;}
+
+.button_links { /*Button Box*/
+    background-color: var(--secondary-color);
+    font-weight: bold;
+    width: 90%;
+    height: 14.375rem;
+    padding: 0.1875rem 5%;
+    font-size: 2rem;
+    margin:0rem auto;
+    border-radius: 0.25rem;
+    }
+
+.button{ /*Individual Buttons*/
+    background-color:var(--primary-color);
+    font-size: 1.2rem;
+    color: var(--text-color);
+    width: 100%;
+    margin: 1.625rem auto 0px;
+    padding: 0.5rem;
+    text-align: center;
+    box-shadow: 0.5rem 0.5rem 0.25rem rgba(0, 0, 0, 0.432);
+    border-radius: 0.25rem;
+}
+
+.button:hover {
+    font-size: 1.5rem;
+    color: gold;
+}
+
+a:link{
+    color: var(--text-color);
+}
+
+
+a:visited {
+    color: var(--text-color);
+}
+
+
+a:hover {
+    color: gold;
+}
+
+.contents {
+    text-align: center;
+    width: 100%;
+}
+
+.Images {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    margin: 2.5rem auto;
+    box-shadow: 0.5rem 0.5rem 0.25rem rgba(0, 0, 0, 0.432);
+    border-radius: 0.25rem;
+}
+
+.text_title{
+    font-size: 2rem;
+    color: var(--text-color);
+    text-shadow: 0.5rem 0.5rem 0.25rem rgba(0, 0, 0, 0.432);
+    margin:0rem;
+    padding:0rem;
+}
+
+.text_title:hover{
+    color: gold;
+}
+
+.text {
+    font-size: 1rem;
+    font-weight: 550;
+    color: #2D336B;
+    background-color: var(--text-color);
+    text-shadow:0rem 0rem 0.25rem rgba(0, 0, 0, 0.199);
+    width: 90%;
+    margin: 1rem 1rem 2rem 1.25rem;
+    line-height: 1.25rem;
+    padding: 1rem;
+    border-radius: 0.25rem;
+}
+
+footer {
+    color: var(--text-color);
+    font-size: 0.75rem;
+    margin: 1.25rem 1.25rem;
+}
+
+
+
+
+
+
+/*home page*/
+
+.trademark-symbol {
+    font-size: 1.5rem;
+    vertical-align: super;
+}
+
+.home_text { /*specified as class so I could make color changes in media query*/
+    font-weight: 550;
+    color:var(--text-color-2);
+    padding: 1rem;
+    background-color: var(--text-color);
+    margin: 1rem auto;
+    max-width: 90%;
+    border-radius: 0.25rem;
+    box-shadow: 0.5rem 0.5rem 0.25rem rgba(0, 0, 0, 0.432);
+}
+
+#contents_home {
+    margin-top: 2rem;
+}
+
+#text_title_home{
+    margin: 0rem
+}
+
+#videl_and_i {
+        max-height: 30rem;
+    }
+
+
+
+
+
+
+
+/*portfolio*/
+
+#title_portfolio {
+    margin: 1rem auto;
+}
+
+.article {
+    padding: 0rem;
+}
+
+#contents_portfolio {
+margin-top: 2.5rem
+}
+
+.text_title_portfolio{
+    text-decoration: underline;
+    margin-top: 2rem;
+}
+
+.text_portfolio {
+    margin: 1rem auto;
+}
+
+.Images_portfolio {
+    margin: 2rem auto;
+}
+
+#footer_portfolio {
+    margin-top: 3.125rem;
+    margin-bottom: 0rem;
+}
+
+
+
+
+
+
+
+/*contacts*/
+
+#title_contact {
+    font-size: 2.5em;
+    margin-top: 3.125rem;
+    margin-bottom: 3.125rem;
+}
+
+#button_links_contact {
+    margin-bottom: -1.875rem;
+}
+
+.contact_link {
+    color: var(--link-color);
+}
+
+.contact_link:link {
+    color: var(--link-color);
+}
+
+.contact_link:visited {
+    color: var(--visited-link);
+   
+}
+
+.contact_link:hover {
+    color: gold;
+}
+
+#contact_email {
+    color: var(--link-color);
+}
+
+#contents_contact {
+    margin-top: 6.25rem;
+}
+
+#text_title_contact {
+    margin-top: 3.125rem;
+    margin-bottom:3.125rem;
+    padding: 0.625rem;
+}
+
+.text_contact {
+    margin:2.5rem auto;
+    max-width: 70%;
+}
+
+#footer_contact {
+    display: flex;
+    margin-top: 8.125rem;
+    margin-bottom: 0;
+    padding: 0rem 0rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (prefers-color-scheme: dark) /*dark theme*/
+{:root {
+    --primary-color: #3e3e42;
+    --secondary-color: #383f83;
+    --visited-link: rgb(31, 31, 31);
+    --text-color: rgb(182, 182, 182);
+    --text-color-2:rgb(31, 31, 31);
+    --link-color:#383f83;
+
+
+ }}
+
+
+@media (min-width: 600px) {
+
+
+
+
+
+
+
+    /*All*/
+        header  {
+        margin: 3rem auto ;
+    }
+
+        main {
+        margin: -1rem auto;
+    }
+
+        .title {
+        font-size: 5rem;
+    }
+
+        .trademark-symbol {
+        font-size: 4rem;
+    }
+
+        .button{
+        display: inline-block;
+        text-align: center;
+        vertical-align: center;
+        width: 32%;
+        height: 3Rem;
+        font-size:1.3rem;
+        font-weight: 600;
+        padding: 0.8rem
+    }
+
+        .button_links {
+        height: 7.5rem;
+        float: center;
+        border: solid 0.5rem var(--primary-color);
+        box-shadow: 0rem 0rem 2rem rgba(0, 0, 0, 0.479);
+        margin-bottom: 5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+        .button:hover {
+        width: 35%;
+        height: 3.2rem;
+        font-size: 1.4rem;
+        background-color: #2a2f63;
+       
+    }
+        .contents{
+        margin: 1.8rem 10rem;
+        margin-bottom: 12rem;
+        width: 90%;
+    }
+
+        .text {
+        background-color: var(--text-color);
+         font-size: 2rem;
+         width: 30%;
+         line-height: 4rem;
+        }
+
+            .Images {
+        max-height: 40rem;
+    }
+
+        footer {
+        font-size:1.5rem;
+        margin-left: 2%;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+    /*Home*/
+        #title_home {
+        margin: 3rem auto;
+    }
+
+        #contents_home {
+        background-color: var(--primary-color);
+        border: solid 0.5rem var(--secondary-color);
+        border-radius: 0.25rem;
+        box-shadow: 2rem 2rem 2rem rgba(0, 0, 0, 0.5);
+        width: 80%;
+        margin: 5rem auto;
+        padding: 4.5rem 4.5rem;
+    }
+
+        #content_home img {
+     float: right;}
+
+         #text_title_home {
+        font-size: 5rem;
+        text-decoration: underline;
+        text-underline-offset: 0.75rem;
+        margin: 1rem;
+        display: inline;
+    }
+
+        .home_text {
+        font-size: 2rem;
+        color: var(--text-color);
+        line-height: 4rem;
+        text-shadow: 0.5rem 0.5rem 0.5rem black;
+        text-align: left;
+        display: block;
+        background-color: transparent;
+        box-shadow: 0.5rem 0.5rem 0.25rem transparent;
+    }
+
+        #videl_and_i {
+        height: 35rem;
+        display: inline;
+        float: right;
+        margin: 2rem 2rem;
+    }
+
+
+
+
+
+
+
+
+
+    /*portfolio*/
+        #title_portfolio {
+        letter-spacing: 0.rem;
+    }
+
+        #contents_portfolio {
+        margin: 0rem auto;
+    }
+
+        .article {
+        padding: 3rem;
+        border-bottom: solid 1px var(--secondary-color);
+    }
+
+        .text_title_portfolio {
+        margin: 1.5rem auto;
+        padding-top: 0rem;
+        font-size: 4rem;
+        text-align: center;
+        text-decoration: none;
+    }
+
+        .text_portfolio {
+        float: right;
+        padding: 1rem;
+        margin:  10rem auto;
+        border: solid 0.5rem var(--textbox-border);
+        box-shadow: 0rem 0rem 3rem rgba(0, 0, 0, 0.432);
+    }
+
+        #text_project_2 {
+        margin: 12.5rem auto;
+    }
+
+    #text_project_3 {
+        margin: 15rem auto;
+    }
+
+        .Images_portfolio{
+        min-width: 60rem;
+        width: 80rem;
+        display:inline;
+    }
+
+        #top_button {
+        text-align:center;
+        font-size: 2rem;
+    }
+
+
+
+
+
+
+    /*contacts*/
+        #title_contact {
+        font-size: 4rem;
+        margin: 1rem 1rem;
+    }
+
+    #contents_contact{
+        margin: 5rem auto;
+    }
+
+    #text_title_contact {
+        font-size: 4rem;
+        text-decoration: underline;
+        text-underline-offset: 1rem;
+        margin: 0rem auto;  
+    }
+
+    #footer_contact {
+        margin:1rem 3rem;
+    }
+}
