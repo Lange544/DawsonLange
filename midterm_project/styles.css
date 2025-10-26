@@ -40,7 +40,7 @@ body {
     text-align: center;
     text-shadow: 0.5rem 0.5rem 0.75rem black;}
 
-.button_links { /*Button Box*/
+#button_links { /*Button Box*/
     background-color: var(--secondary-color);
     font-weight: bold;
     width: 90%;
@@ -174,7 +174,7 @@ footer {
     margin: 1rem auto;
 }
 
-.article {
+#article {
     padding: 0rem;
 }
 
@@ -214,9 +214,6 @@ margin-top: 2.5rem
     margin-bottom: 3.125rem;
 }
 
-#button_links_contact {
-    margin-bottom: -1.875rem;
-}
 
 .contact_link {
     color: var(--link-color);
@@ -320,7 +317,7 @@ margin-top: 2.5rem
         padding: 0.8rem
     }
 
-        .button_links {
+        #button_links {
         height: 7.5rem;
         float: center;
         border: solid 0.5rem var(--primary-color);
