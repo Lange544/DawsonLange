@@ -473,10 +473,11 @@ margin-top: 2.5rem
         display:inline;
     }
 
-        #top_button {
-        text-align:center;
-        font-size: 2rem;
-    }
+     #top {
+        color: var(--text-color-2);
+     }
+
+
 
 
 
