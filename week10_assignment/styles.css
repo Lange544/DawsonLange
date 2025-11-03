@@ -319,12 +319,13 @@ margin-top: 2.5rem
         display: inline-block;
         text-align: center;
         vertical-align: center;
-        width: 32%;
+        width: 30%;
         height: 3Rem;
         font-size:1.4rem;
         font-weight: 600;
         padding: 0.8rem;
-        margin-top: 1rem;
+        margin: 1rem,auto,0rem,auto;
+
     }
 
         #button_links {
@@ -335,10 +336,11 @@ margin-top: 2.5rem
         margin-bottom: 5rem;
         margin-left: auto;
         margin-right: auto;
+        padding: 0.1875rem 0rem 0.1875rem 8%;
     }
 
         .button:hover {
-        width: 35%;
+        width: 33%;
         height: 3.2rem;
         font-size: 1.4rem;
         background-color: #2a2f63;
