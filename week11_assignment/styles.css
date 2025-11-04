@@ -1,0 +1,143 @@
+
+:root {
+    --primary-color:#0cabc0 ;
+    --secondary-color:#50C2E5;
+    --tertiary-color:#ffffff;
+    --text-color:black ;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+main {
+
+    margin: auto;
+}
+
+table {
+    border: 2px black solid;
+    margin: 0rem auto 0.5rem auto;
+    background-color:var(--primary-color);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+caption {
+    font-size:1.5rem;
+    margin-bottom: 1rem;
+    border: 2px solid black;
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+    width: 50%;
+    margin: 0.5rem auto;
+
+}
+
+
+th {
+    height: 3rem;
+    text-align: center;
+    border: thin var(--text-color) solid;
+}
+
+
+td {
+    padding: 0.5rem;
+    height: 2rem;
+    text-align: center;
+    border: thin var(--text-color) solid;
+}
+
+.table-container {
+    overflow-x: auto;
+    box-shadow: 0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.452);
+    height: 33rem;
+    width: 85%;
+    margin: 0rem auto;
+    padding: 0rem 1rem;
+}
+
+#region {
+    color:var(--tertiary-color) ;
+    padding: 0.5rem;
+}
+
+#quarter {
+    color: var(--tertiary-color);
+}
+
+#total  {
+    font-weight: bold;
+}
+
+.complete_total {
+    color: gold;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+@media (prefers-color-scheme: dark) /*dark theme*/
+{
+:root {
+    --primary-color:#0a606b;
+    --secondary-color: #3b89a1;
+    --tertiary-color: #bebebe;
+    --text-color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: rgb(88, 88, 88);
+}
+
+}
+
+@media (min-width: 600px) {
+
+
+
+caption {
+    font-size: 2.5rem;
+    box-shadow: 0rem 0rem 0.2rem black;
+}
+
+table {
+    width: 70%;
+    margin: 1rem auto;
+    box-shadow: 0rem 0rem 0.5rem black;
+}
+
+
+td {
+    width: 20%;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+#region {
+    padding: 1rem 0rem 1rem 0rem;
+    color: var(--tertiary-color);
+}
+
+#quarter {
+    color: var(--tertiary-color);
+}
+
+
+.table-container {
+    box-shadow: none;
+    font-size: 1.5rem;
+    height: 40rem;
+    color: var(--text-color);
+}
+
+td:hover {
+    color: rgb(158, 44, 44);
+    font-size: 1.7rem;
+}
+
+#complete_total td:hover {
+      color: rgb(158, 44, 44);
+    font-size: 1.7rem;
+}
+}
