@@ -57,6 +57,8 @@ td {
     width: 85%;
     margin: 0rem auto;
     padding: 0rem 1rem;
+    color: var(--tertiary-color);
+    
 }
 
 #region {
@@ -70,6 +72,7 @@ td {
 
 #total  {
     font-weight: bold;
+    color: black;
 }
 
 .complete_total {
@@ -103,15 +106,19 @@ caption {
 }
 
 table {
-    width: 70%;
+    width: 80%;
     margin: 1rem auto;
     box-shadow: 0rem 0rem 0.5rem black;
+}
+
+th {
+    padding: 1rem 1rem;
 }
 
 
 td {
     width: 20%;
-    padding: 1rem 0rem 1rem 0rem;
+    padding: 1rem 1rem;
 }
 
 #region {
@@ -127,8 +134,7 @@ td {
 .table-container {
     box-shadow: none;
     font-size: 1.5rem;
-    height: 40rem;
-    color: var(--text-color);
+    height: 45rem;
 }
 
 td:hover {
@@ -140,4 +146,5 @@ td:hover {
       color: rgb(158, 44, 44);
     font-size: 1.7rem;
 }
+
 }
