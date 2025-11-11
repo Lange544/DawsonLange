@@ -54,11 +54,13 @@ td {
     overflow-x: auto;
     box-shadow: 0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.452);
     height: 32rem;
-    width: 85%;
     margin: 0rem auto;
     padding: 0rem 1rem;
     color: var(--tertiary-color);
-    
+}
+
+#sales {
+    border-collapse:collapse;
 }
 
 #region {
