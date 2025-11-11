@@ -147,7 +147,6 @@ background-color:rgb(189, 178, 178);
 #sales tfoot tr:last-child{
     color: gold;
     font-weight:bold;
-    text-decoration: underline;
 }
 
 @media (min-width: 600px) {
@@ -181,8 +180,8 @@ td:hover {
     font-size: 1.7rem;
 }
 
-#sales tfoot tr:last-child:hover {
-      color: rgb(158, 44, 44);
+#sales tfoot tr:last-child td:hover {
+    color: rgb(158, 44, 44);
     font-size: 1.7rem;
 }
 
