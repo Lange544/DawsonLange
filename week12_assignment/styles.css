@@ -20,6 +20,8 @@ nav ul {
     padding: 0.5rem;
     border-bottom: 0.2rem black solid;
     transition: 0.3s ease-in-out;
+    width: 100%;
+    justify-content: center;
 
 }
 
@@ -147,7 +149,10 @@ background-color:rgb(189, 178, 178);
 #sales tfoot tr:last-child{
     color: gold;
     font-weight:bold;
+    list-style-type:low
 }
+
+
 
 @media (min-width: 600px) {
 
