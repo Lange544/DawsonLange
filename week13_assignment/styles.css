@@ -11,13 +11,13 @@ padding: 0;
 }
 
 
-
 ul {
    padding: 0;
 }
 
 body{
-    width: 100%;
+    width: 100vh;
+    min-width: 100%
 }
 
 /*Header*/
@@ -26,6 +26,7 @@ header {
     align-items: center;
     display: flex;
     border-bottom: 0.2rem black solid;
+    width: 100vh;
     min-width: 100%;
     margin: 0rem;
     padding: 0rem;
@@ -38,11 +39,11 @@ header {
 
 header nav {
     margin: 0 auto;
-    flex-grow: 0;
     width: 100%;
 }
 header nav ul {
-    display:flex;
+    display: flex;
+    flex-direction: row;
     list-style: none;
     justify-content: center;
     text-align: center;
@@ -52,7 +53,7 @@ header li {
     padding: 0.75rem;
     background-color: var(--secondary-color);
     border-radius: 1rem;
-    width: 7%;
+    flex: 0.1 2 7%;
     margin: 2rem;
     box-shadow: 0.2rem 0.2rem 0.1rem rgba(0, 0, 0, 0.37);
     transition: 0.2s ease-in-out;
@@ -84,24 +85,22 @@ header li:focus {
 
 .content-wrapper {
     display: flex;
+    justify-content: space-evenly;
     width: 100%;
 }
 
 .sidebar {
-    display: flex;
     flex-direction: column;
-    justify-content: space-between;
     border-right: 0.2rem black solid;
-    flex-grow: 1;
+    flex: 1 1.5 300px;
     margin: 0rem;
     align-items: center;
     background-color: var(--tertiary-color);
-      box-shadow: inset 0 -8px 8px -8px rgba(0, 0, 0, 0.75),
-             inset 0 8px 8px -8px rgba(0, 0, 0, 0.75);
+    box-shadow: inset 0 -8px 8px -8px rgba(0, 0, 0, 0.75),
+                inset 0 8px 8px -8px rgba(0, 0, 0, 0.75);
 }
 
 .sidebar nav ul {
-    display: block;
     list-style: none;
     margin: 0rem auto;
 }
@@ -111,7 +110,6 @@ header li:focus {
     margin: 0.5rem 0rem;
     padding: 0.2rem 0.5rem 0.2rem 0rem;
     background-color: rgba(240, 238, 238, 0.24);
-    width: 13rem;
     height: 3rem;
     text-align: right;   
 }
@@ -168,12 +166,8 @@ footer p {
 }
 
 .card {
-    display: inline-block;
-    flex-direction: column;
-    flex: 1 1.5 500px;
-    flex-grow: 2;
+    flex: 1 1.5 350px;
     border:5px ridge rgb(87, 86, 86);
-    margin-bottom: 1rem;
     border-radius: 0.5rem;
     margin: 2rem 2rem 2rem 2rem;
     background-color: rgb(240, 252, 247);
@@ -184,7 +178,7 @@ footer p {
 .card h3 {
     font-size: 2rem;
     padding: 1rem 0rem;
-     text-align: center;
+    text-align: center;
     border-bottom: solid black 2px;
     margin: 0rem 0rem;
     background-color: var(--tertiary-color);
@@ -206,7 +200,6 @@ footer p {
 .card p:last-child{
     font-size: 0.75rem;
     padding: 0.3rem;
-    display: flex;
     background-color: rgba(158, 230, 144, 0.5);
     margin: 0.8rem auto;
     width: 8rem;
@@ -238,8 +231,7 @@ footer p {
 
 .special-card {
     display: inline-block;
-    flex: 1 1.5 500px;
-    flex-grow: 2;
+    flex: 1 1.5 350px;
     margin-bottom: 1rem;
     border-radius: 0.5rem;
     margin: 2rem 2rem 2rem 2rem;
@@ -273,7 +265,6 @@ footer p {
 .special-card p:last-child{
     font-size: 0.75rem;
     padding: 0.3rem;
-    display: flex;
     background-color: rgba(158, 230, 144, 0.5);
     margin: 0.5rem auto;
     width: 10rem;
