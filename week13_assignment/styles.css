@@ -22,9 +22,9 @@ body{
 
 /*Header*/
 header {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    display: flex;
     border-bottom: 0.2rem black solid;
     width: 100vh;
     min-width: 100%;
@@ -43,7 +43,6 @@ header nav {
 }
 header nav ul {
     display: flex;
-    flex-direction: row;
     list-style: none;
     justify-content: center;
     text-align: center;
