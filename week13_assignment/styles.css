@@ -77,8 +77,11 @@ header li:focus {
     font-size: 3rem;
     font-weight: bolder;
     font-family: 'Times New Roman', Times, serif;
-    padding: 0;
+    padding: 0 ;
     color: var(--secondary-color);
+    width: 15rem;
+    position: relative;
+    border-right: dotted var(--secondary-color) 10px;
 }
 
 /*Main Layout*/
@@ -154,6 +157,7 @@ footer {
 }
 
 footer p {
+    font-size: 1.3rem;
  margin: auto 0rem 0.5rem 1rem ;
 }
 
