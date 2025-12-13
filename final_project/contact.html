@@ -8,44 +8,45 @@
 </head>
 <body>
     <header>
-        <a id="top"></a>
+        <div class="header-container">
         <h1 class="logo">Arcane Archives</h1>
             <nav class="navigation">
                 <ul>
-                    <li class="button" id="header_button"><a href="index.html"> Home</a></li>
-                    <li class="button" id="header_button"><a href="shop.html"> Shop</a></li>
-                    <li class="button" id="header_button"><a href="contact.html">Contact</a></li>
-                    <li class="button" id="header_button"><a href="blog.html">Blog</a></li>
+                    <li><a class="interactive" href="index.html"> Home</a></li>
+                    <li><a class="interactive" href="shop.html"> Shop</a></li>
+                    <li><a class="interative" href="contact.html">Contact</a></li>
+                    <li><a class="interactive" href="blog.html">Blog</a></li>
                 </ul>
             </nav>
+        </div>
     </header>
-    <main>
-      <picture>
-        <source media="(min-width:701px)" srcset="Images/contact_images/Need_help.png" type="image/png" class="contact_images" id="Need_help">
-        <source media="(max-width:700px)" srcset="Images/contact_images/mobile_help.png" type="image/png" class="contact_images" id="Mobile_help">
-        <img src="Images/contact_images/Backup.jpg" alt="Photo of person holding a book on a table">
-      </picture>
-
-      <p>
-        Email:
-        <a href="mailto:ArcaneArchives@gmail.com">archivesarcane99@gmail.com</a>
-      </p>
-      <p>
-        Follow Arcane Archive on 
-        <a href="https://www.instagram.com/arcane_archive_books/" target="_blank" rel="noopener noreferrer">Instagram</a>
-      </p>
+    <main class="contact-page-container">
+      <div class="content">
+        <picture class="img-contact">
+          <source media="(min-width:701px)" srcset="Images/contact_images/Need_help.png" type="image/png" class="contact_images" id="Need_help">
+          <source media="(max-width:700px)" srcset="Images/contact_images/mobile_help.png" type="image/png" class="contact_images" id="Mobile_help">
+          <img id="contact-image" src="Images/contact_images/Backup.jpg" alt="Photo of person holding a book on a table">
+        </picture>
+        <section class="content-text" id="social">
+          <p>For customer service, order inquiries, or specific help, our administrative hours are Monday through Friday, 9:00 AM to 5:00 PM (CST).</p>
+          <p>Send us an <a class="interactive" href="mailto:ArcaneArchives@gmail.com">Email</a></p>
+          <p>Follow Arcane Archive on <a class="interactive" href="https://www.instagram.com/arcane_archive_books/" target="_blank" rel="noopener noreferrer">Instagram</a></p>
+        </section>
+      </div>
     </main>
     <footer>
-            <nav>
-            <ul>
-                <li class="button" id="footer_button"><a href="contact.html">Contact Us</a></li>
-                <li class="button" id="footer_button"><a href="shop.html">Shop</a></li>
-                <li class="button" id="footer_button"><a href="blog.html">Blog</a></li>
-            </ul>
-            </nav>
-            <div id="copyright">
-            <p>&copy; 2019–2025 Arcane Archives. All Rights Reserved.</p>
-            <p>Discovering magic in every page since 2019.</p>
+            <div class="footer-container">
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a class="interactive" href="contact.html">Contact Us</a></li>
+                        <li><a class="interactive" href="shop.html">Shop</a></li>
+                        <li><a class="interactive" href="blog.html">Blog</a></li>
+                    </ul>
+                </nav>
+                <div id="copyright">
+                    <p>&copy; 2019–2025 Arcane Archives. All Rights Reserved.</p>
+                    <p>Discovering magic in every page since 2019.</p>
+                </div>
             </div>
     </footer>
     </body>

@@ -7,126 +7,138 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 
-<body>
+<body class="page-layout">
     <header>
+        <div class="header-container">
         <a id="top"></a>
         <h1 class="logo">Arcane Archives</h1>
             <nav class="navigation">
                 <ul>
-                    <li class="button" id="header_button"><a href="index.html"> Home</a></li>
-                    <li class="button" id="header_button"><a href="shop.html"> Shop</a></li>
-                    <li class="button" id="header_button"><a href="contact.html">Contact</a></li>
-                    <li class="button" id="header_button"><a href="blog.html">Blog</a></li>
+                    <li><a class="interactive" href="index.html"> Home</a></li>
+                    <li><a class="interactive" href="shop.html"> Shop</a></li>
+                    <li><a class="interactive" href="contact.html">Contact</a></li>
+                    <li><a class="interactive" href="blog.html">Blog</a></li>
                 </ul>
             </nav>
-    </header>
-    <main>
-        <div class="shop_container">
-            <div class="category">
-                <h2>Epic Fantasy</h2>
-                <div class="book_container">
-                    <a id="Epic"></a>
-                    <h2>The Way of Kings</h2>
-                    <h3>Brandon Sanerson</h3>
-                    <img src="Images/shop_images/WoK.png" alt="The cover art of Brandon Sanderson's book: The Way Of Kings">
-                    <p class="buy_now">Buy Now</p>
-                </div>
-                <div class="book_container">
-                    <h2>The Lies of Locke Lamora</h2>
-                    <h3>Scott Lynch</h3>
-                    <img src="Images/shop_images/LoLL.png" alt="The cover art of Scott Lynch's book: The Lies Of Locke Lamora">
-                    <p class="buy_now">Buy Now</p>
-                </div>
-                <div class="book_container">
-                    <h2>A Court of Wings and Ruin</h2>
-                    <h3>Sarah J. Maas</h3>
-                    <img src="Images/shop_images/CoWaR.png" alt="The Cover art of Sarah J. Maas' book: A Court of Wings and Ruin">
-                    <p class="buy_now">Buy Now</p>
-                </div>
-                <div class="book_container">
-                    <h2>Assassin's Apprentice</h2>
-                    <h3>Robin Hobb</h3>
-                    <img src="Images/shop_images/Assasin's_Apprentice.png" alt="The cover art for Robin Hobb's book: Assassin's Apprentice">
-                    <p class="buy_now">Buy Now</p>
-                </div>
-            </div>
-            <div class="category">
-                <a id="urban/contemporary"></a>
-                <h2>Urban/Contemporary Fantasy</h2>
-                <div class="book_container">
-                    <h2>Harry Potter and the Sorcerer's Stone</h2>
-                    <h3>J.K. Rowling</h3>
-                    <img src="Images/shop_images/Harry_Potter.png" alt="The cover art for J.K. Rowling's book: Harry Potter And The Sorcerer's Stone">
-                    <p class="buy_now">Buy Now</p>
-                </div>
-                <div class="book_container">
-                    <h2>City of Bones</h2>
-                    <h3>Cassandra Clare</h3>
-                    <img src="Images/shop_images/City_of_Bones.png" alt="The cover art for Cassandra Clare's book: City of Bones">
-                    <p class="buy_now">Buy Now</p>
-                </div>
-                <div class="book_container">
-                    <h2>The Lightning Thief</h2>
-                    <h3>Rick Riordan</h3>
-                    <img src="Images/shop_images/Lightning_Thief.png" alt="The cover art of Rick Riordan's book: Lightning Thief">
-                    <p class="buy_now">Buy Now</p>
-                </div>
-                <div class="book_container">
-                    <h2>Twilight</h2>
-                    <h3>Stephanie Meyer</h3>
-                    <img src="Images/shop_images/twilight.png" alt="The cover art of Stephanie Meyer's book: Twilight">
-                    <p class="buy_now">Buy Now</p>
-                </div>
-            </div>
-            <div class="category">
-                <a id="dark"></a>
-                <h2>Dark Fantasy</h2>
-                <div class="book_container">
-                    <h2>Prince of Thorns</h2>
-                    <h3>Mark Lawrence</h3>
-                    <img src="Images/shop_images/PoT.png" alt="The cover art of Mark Lawrence's book: Princ of Thorns">
-                    <p class="buy_now">Buy Now</p>
-                </div>
-                <div class="book_container">
-                    <h2>The Black Company</h2>
-                    <h3>Glen Cook</h3>
-                    <img src="Images/shop_images/The_Black_Company.png" alt="The cover art of Glen Cook's book: The Black Company">
-                    <p class="buy_now">Buy Now</p>
-                </div>
-                <div class="book_container">
-                    <h2>The Blade Itself</h2>
-                    <h3>Joe Abercrombie</h3>
-                    <img src="Images/shop_images/The_Blade_Itself.png" alt="The cover art of Joe Abercrombie's book: The Blade Itself">
-                    <p class="buy_now">Buy Now</p>
-                </div>
-                <div class="book_container">
-                    <h2>The Way of Shadows</h2>
-                    <h3>Brent Weeks</h3>
-                    <img src="Images/shop_images/WoS.png" alt="The cover art of Brent Weeks' book The Way of Shadows">
-                    <p class="buy_now">Buy Now</p>
-                </div>
-            </div>
         </div>
-    <aside class="sidebar_category">
-        <ul>
-            <li id="button_category"><a href="#Epic">Epic Fantasy</a></li>
-            <li id="button_category"><a href="#urban/contemporary">Urban/Contemporary</a></li>
-            <li id="button_category"><a href= "#dark">Dark Fantasy</a></li>
-        </ul>
-    </aside>
-
-    </main>
-    <footer>
-            <nav>
-            <ul>
-                <li class="button" id="footer_button"><a href="contact.html">Contact Us</a></li>
-                <li class="button" id="footer_button"><a href="shop.html">Shop</a></li>
-                <li class="button" id="footer_button"><a href="blog.html">Blog</a></li>
-            </ul>
+    </header>
+            <aside class="sidebar-category">
+            <h2>Category</h2>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li id="button_category"><a class="interactive" href="#Epic">Epic Fantasy</a></li>
+                    <li id="button_category"><a class="interactive" href="#urban/contemporary">Urban/Contemp.</a></li>
+                    <li id="button_category"><a class="interactive" href= "#dark">Dark Fantasy</a></li>
+                </ul>
             </nav>
-            <div id="copyright">
-            <p>&copy; 2019–2025 Arcane Archives. All Rights Reserved.</p>
-            <p>Discovering magic in every page since 2019.</p>
+        </aside>
+    <div class="content">
+        <main id="content-container">
+            <div id="shop-container">
+                <div class="category-row">
+                    <h2 id="category-text"><a id="Epic">Epic Fantasy</a></h2>
+                    <div class="category-container">
+                        <div class="book-container">
+                            <h2>The Way of Kings</h2>
+                            <h3>by Brandon Sanerson</h3>
+                            <img class="image-shop" src="Images/shop_images/WoK.png" alt="The cover art of Brandon Sanderson's book: The Way Of Kings">
+                            <p class="buy-now">Buy Now</p>
+                        </div>
+                        <div class="book-container">
+                            <h2>The Lies of Locke Lamora</h2>
+                            <h3>by Scott Lynch</h3>
+                            <img class="image-shop" src="Images/shop_images/LoLL.png" alt="The cover art of Scott Lynch's book: The Lies Of Locke Lamora">
+                            <p class="buy-now">Buy Now</p>
+                        </div>
+                        <div class="book-container">
+                            <h2>A Court of Wings and Ruin</h2>
+                            <h3>by Sarah J. Maas</h3>
+                            <img class="image-shop" src="Images/shop_images/CoWaR.png" alt="The Cover art of Sarah J. Maas' book: A Court of Wings and Ruin">
+                            <p class="buy-now">Buy Now</p>
+                        </div>
+                        <div class="book-container">
+                         <h2>Assassin's Apprentice</h2>
+                            <h3>Robin Hobb</h3>
+                            <img class="image-shop" src="Images/shop_images/Assasin's_Apprentice.png" alt="The cover art for Robin Hobb's book: Assassin's Apprentice">
+                            <p class="buy-now">Buy Now</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="category-row">
+                    <h2 id="category-text"><a id="urban/contemporary"></a>urban/contemporary</h2>
+                    <div class="category-container">
+                        <div class="book-container">
+                            <h2>Harry Potter and the Sorcerer's Stone</h2>
+                            <h3>by J.K. Rowling</h3>
+                            <img class="image-shop" src="Images/shop_images/Harry_Potter.png" alt="The cover art for J.K. Rowling's book: Harry Potter And The Sorcerer's Stone">
+                            <p class="buy-now">Buy Now</p>
+                        </div>
+                        <div class="book-container">
+                            <h2>City of Bones</h2>
+                            <h3>by Cassandra Clare</h3>
+                            <img class="image-shop" src="Images/shop_images/City_of_Bones.png" alt="The cover art for Cassandra Clare's book: City of Bones">
+                            <p class="buy-now">Buy Now</p>
+                        </div>
+                        <div class="book-container">
+                            <h2>The Lightning Thief</h2>
+                            <h3>by Rick Riordan</h3>
+                            <img class="image-shop" src="Images/shop_images/Lightning_Thief.png" alt="The cover art of Rick Riordan's book: Lightning Thief">
+                            <p class="buy-now">Buy Now</p>
+                        </div>
+                        <div class="book-container">
+                            <h2>Twilight</h2>
+                            <h3>by Stephanie Meyer</h3>
+                            <img class="image-shop" src="Images/shop_images/twilight.png" alt="The cover art of Stephanie Meyer's book: Twilight">
+                            <p class="buy-now">Buy Now</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="category-row">
+                    <h2 id="category-text"><a id="dark">Dark Fantasy</a></h2>
+                    <div class="category-container">
+                        <div class="book-container">
+                            <h2>Prince of Thorns</h2>
+                            <h3>by Mark Lawrence</h3>
+                            <img class="image-shop" src="Images/shop_images/PoT.png" alt="The cover art of Mark Lawrence's book: Princ of Thorns">
+                            <p class="buy-now">Buy Now</p>
+                        </div>
+                        <div class="book-container">
+                            <h2>The Black Company</h2>
+                            <h3>by Glen Cook</h3>
+                            <img class="image-shop" src="Images/shop_images/The_Black_Company.png" alt="The cover art of Glen Cook's book: The Black Company">
+                            <p class="buy-now">Buy Now</p>
+                        </div>
+                        <div class="book-container">
+                            <h2>The Blade Itself</h2>
+                            <h3>by Joe Abercrombie</h3>
+                            <img class="image-shop" src="Images/shop_images/The_Blade_Itself.png" alt="The cover art of Joe Abercrombie's book: The Blade Itself">
+                            <p class="buy-now">Buy Now</p>
+                        </div>
+                        <div class="book-container">
+                            <h2>The Way of Shadows</h2>
+                            <h3>by Brent Weeks</h3>
+                            <img class="image-shop" src="Images/shop_images/WoS.png" alt="The cover art of Brent Weeks' book The Way of Shadows">
+                            <p class="buy-now">Buy Now</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <a id="top-button" href="#top">Back to Top ↑</a>
+    </div>
+    <footer>
+            <div class="footer-container">
+                <nav class="footer-nav">
+                    <ul>
+                        <li><a class="interactive" href="contact.html">Contact Us</a></li>
+                        <li><a class="interactive" href="shop.html">Shop</a></li>
+                        <li><a class="interactive" href="blog.html">Blog</a></li>
+                    </ul>
+                </nav>
+                <div id="copyright">
+                    <p>&copy; 2019–2025 Arcane Archives. All Rights Reserved.</p>
+                    <p>Discovering magic in every page since 2019.</p>
+                </div>
             </div>
     </footer>
 </body>
