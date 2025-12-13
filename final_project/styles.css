@@ -754,30 +754,24 @@ footer {
     :root {
         --secondary-color: #121212; 
         --tirtiary-color: #242424;
-        --text-color: #e0e0e0;
-        --primary-color: #6e9ac9;
+        --text-color: #ffffff;
+        --primary-color: #98c3e8;
         --pull-quote-background: rgba(36, 36, 36, 0.6); 
     }
 
-    .sidebar-category,
-    .content-text,
-    .category-row {
-        box-shadow: 0rem 0.3rem 0.5rem rgba(0, 0, 0, 0.3);
+    .sidebar-category, .content-text, .category-row {
+        box-shadow: 0rem 0.3rem 0.5rem rgba(0, 0, 0, 0.5);
     }
     
-    .header-container {
-        border-bottom-color: var(--tirtiary-color);
-    }
-
-    .content h2, .content h3 {
-        color: var(--primary-color);
-    }
-
-    .pull-quote p {
-        color: white;
+    .logo, .pull-quote p {
+        color: var(--text-color) !important;
     }
 
     .logo{
+        color: white;
+    }
+
+    .content h2, .content h3 {
         color: white;
     }
 }
