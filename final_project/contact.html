@@ -1,56 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact Page</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-    <header>
-        <div class="header-container">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header role="banner">
+      <div class="header-container">
         <h1 class="logo">Arcane Archives</h1>
-            <nav class="navigation" aria-label="primary site navigation">
-                <ul>
-                    <li><a class="interactive" role="link" href="index.html"> Home</a></li>
-                    <li><a class="interactive" role="link" href="shop.html"> Shop</a></li>
-                    <li><a class="interative" role="link" href="contact.html">Contact</a></li>
-                    <li><a class="interactive" role="link" href="blog.html">Blog</a></li>
-                </ul>
-            </nav>
-        </div>
+        <nav class="navigation" role="navigation" aria-label="primary site navigation">
+          <ul>
+            <li><a class="interactive" role="link" href="index.html"> Home</a></li>
+            <li><a class="interactive" role="link" href="shop.html"> Shop</a></li>
+            <li><a class="interative" role="link" href="contact.html">Contact</a></li>
+            <li><a class="interactive" role="link" href="blog.html">Blog</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <main>
+
+    <main role="main">
       <div class="content">
         <picture class="contact-image-container">
           <source class="contact-images" media="(min-width:701px)" srcset="Images/contact_images/Need_help.png" type="image/png">
-          <source class="contact-images"  media="(max-width:700px)" srcset="Images/contact_images/mobile_help.png" type="image/png">
+          <source class="contact-images" media="(max-width:700px)" srcset="Images/contact_images/mobile_help.png" type="image/png">
           <img class="contact-image" src="Images/contact_images/Backup.jpg" alt="Photo of person holding a book on a table">
         </picture>
+
         <section class="content-text social-item">
           <p>For customer service, order inquiries, or specific help, our administrative hours are Monday through Friday, 9:00 AM to 5:00 PM (CST).</p>
-          </section>
+        </section>
+
         <section class="content-text social-item">
           <p>Send us an <a class="interactive" href="mailto:ArcaneArchives@gmail.com" aria-label="link to email">Email</a></p>
-          </section>
+        </section>
+
         <section class="content-text social-item">
           <p>Follow Arcane Archive on <a class="interactive" href="https://www.instagram.com/arcane_archive_books/" target="_blank" rel="noopener noreferrer" aria-label="Link to Instagram Page">Instagram</a></p>
         </section>
       </div>
     </main>
-    <footer>
-            <div class="footer-container">
-                <nav class="footer-nav" aria-label="Footer link navigation">
-                    <ul>
-                        <li><a class="interactive" role="link" href="contact.html">Contact Us</a></li>
-                        <li><a class="interactive" role="link" href="shop.html">Shop</a></li>
-                        <li><a class="interactive" role="link" href="blog.html">Blog</a></li>
-                    </ul>
-                </nav>
-                <div id="copyright">
-                    <p>&copy; 2019–2025 Arcane Archives. All Rights Reserved.</p>
-                    <p>Discovering magic in every page since 2019.</p>
-                </div>
-            </div>
+
+    <footer role="contentinfo">
+      <div class="footer-container">
+        <nav class="footer-nav" aria-label="Footer link navigation">
+          <ul>
+            <li><a class="interactive" role="link" href="contact.html">Contact Us</a></li>
+            <li><a class="interactive" role="link" href="shop.html">Shop</a></li>
+            <li><a class="interactive" role="link" href="blog.html">Blog</a></li>
+          </ul>
+        </nav>
+        <div id="copyright">
+          <p>&copy; 2019–2025 Arcane Archives. All Rights Reserved.</p>
+          <p>Discovering magic in every page since 2019.</p>
+        </div>
+      </div>
     </footer>
-    </body>
+  </body>

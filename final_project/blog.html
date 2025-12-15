@@ -1,88 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Home Page</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Home Page</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
 
-<body class="blog-page-layout">
-    <header>
-        <div class="header-container">
-        <a id="top"></a>
-        <h1 class="logo">Arcane Archives</h1>
-            <nav class="navigation" aria-label="Primary site navigation">
-                <ul>
-                    <li><a class="interactive" role="link" href="index.html"> Home</a></li>
-                    <li><a class="interactive" role="link" href="shop.html"> Shop</a></li>
-                    <li><a class="interactive" role="link" href="contact.html">Contact</a></li>
-                    <li><a class="interactive" role="link" href="blog.html">Blog</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-        <aside class="pull-quote">
+    <body class="blog-page-layout">
+        <header role="banner">
+            <div class="header-container">
+                <a id="top"></a>
+                <h1 class="logo">Arcane Archives</h1>
+                <nav class="navigation" role="navigation" aria-label="Primary site navigation">
+                    <ul>
+                        <li><a class="interactive" role="link" href="index.html"> Home</a></li>
+                        <li><a class="interactive" role="link" href="shop.html"> Shop</a></li>
+                        <li><a class="interactive" role="link" href="contact.html">Contact</a></li>
+                        <li><a class="interactive" role="link" href="blog.html">Blog</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <aside class="blog-sidebar" role="complementary">
+            <div class="pull-quote">
                 <p><em>"Fantasy books basically taught Hollywood how to dream bigger."</em></p>
                 <p> -Arcane Archives</p>
+            </div>
         </aside>
-        <div class="content blog-main">
-            <main>
-                <div id="blog-contents-container">
-                <section class="content-text blog-article">
-                    <h2>How Fantasy Books <span id="underline"> Shaped our movies</span></h2>
-                    <p>
-                        Fantasy books have been around forever, full of dragons, magic, and epic quests. But did you ever stop to think about how much they've changed the movies we watch today? 
-                        It's pretty wild when you think about it.Before these books really hit it big, our movies were mostly about cops, romances, or historical stuff. 
-                        But once readers fell in love with made-up worlds, Hollywood started to pay attention, and now fantasy is everywhere.
-                    </p>
-                    <p>
-                        Think about it this way: stories like "The Lord of the Rings" and "Harry Potter" weren't just popular books; they were huge events. 
-                        When these got turned into movies, they showed everyone that audiences were hungry for big, imaginative tales.
-                        <img class="image-blog" src="Images/blog_images/HP.jpg" alt="A picture of every Harry Potter movie cover art">
-                        These movies brought magic, mythical creatures, and complex worlds right to the big screen, and people went nuts for them.
-                        It proved that special effects could actually make these impossible things look real, which was a game-changer.
-                    </p>
-                    <p>
-                        Because these early fantasy adaptations did so well, moviemakers realized there was a whole universe of stories waiting to be told. 
-                        This opened the door for all sorts of fantasy elements to pop up in movies that aren't even direct adaptations. 
-                        Suddenly, superhero movies got even more magical powers, sci-fi films started having more fantastical beasts, and even regular action movies sometimes have a touch of the extraordinary. 
-                        Fantasy books basically taught Hollywood how to dream bigger.
-                    </p>
-                    <p>
-                        So, next time you're watching a movie with a cool monster, a hero with a special destiny, or a whole new world, remember that it probably owes a lot to those old fantasy novels.
-                        They didn't just give us great stories to read; they showed filmmakers how to bring those incredible ideas to life, making cinema a much more exciting and imaginative place for all of us.
-                    </p>
-                    <br>
-                    <br>
-                    <h2>Why Books Still Matter in a Digital World</h2>
-                    <p>
-                        In an age of constant notifications, endless scrolling, and bite-sized content, books remain a quiet rebellion against distraction. 
-                        They ask for time, attention, and imagination—and in return, they offer depth, perspective, and a connection to ideas far bigger than ourselves. 
-                        Whether tucked onto a nightstand or stored on an e-reader, books continue to play an essential role in how we learn, grow, and understand the world.
-                    </p>
-                    <p>
-                        Books are powerful because they let us experience life through someone else’s eyes. 
-                        A novel can place us in a different century, culture, or reality, helping us build empathy and curiosity.
-                        Nonfiction books do the same in their own way, breaking down complex ideas and preserving knowledge so it can be passed from one generation to the next. 
-                        Through reading, we gain insight without having to live every experience ourselves.
-                    </p>
-                    <p>
-                        There is also something deeply personal about reading. A book meets each reader where they are—its meaning can shift depending on your age, mood, or life experience.
-                         The same story can feel completely different when reread years later, revealing new layers and interpretations.
-                         This personal connection is what turns books into lifelong companions rather than disposable content.
-                    </p>
-                    <p>
-                        In a world that moves quickly, books encourage us to slow down. They create space for reflection, focus, and imagination, reminding us that not everything worth knowing can be learned in a headline.
-                         No matter how technology evolves, books remain a timeless source of knowledge, comfort, and inspiration—and that is why they will always matter.
-                    </p>
-                        
-                </section>
-                </div>
-            </main>
+
+        <main class="content" id="blog-contents-container" role="main">
+            <section class="content-text blog-article">
+                <h2>How Fantasy Books <span class="underline"> Shaped our movies</span></h2>
+                <h3><em>by Dawson Lange</em></h3>
+                <p>
+                    Fantasy books have been around forever, full of dragons, magic, and epic quests. But did you ever stop to think about how much they've changed the movies we watch today?
+                    It's pretty wild when you think about it.Before these books really hit it big, our movies were mostly about cops, romances, or historical stuff.
+                    But once readers fell in love with made-up worlds, Hollywood started to pay attention, and now fantasy is everywhere.
+                </p>
+
+                <p>
+                    Think about it this way: stories like "The Lord of the Rings" and "Harry Potter" weren't just popular books; they were huge events.
+                    When these got turned into movies, they showed everyone that audiences were hungry for big, imaginative tales.
+                    <img class="image-blog" role="img" src="Images/blog_images/HP.jpg" alt="A picture of every Harry Potter movie cover art">
+                    These movies brought magic, mythical creatures, and complex worlds right to the big screen, and people went nuts for them.
+                    It proved that special effects could actually make these impossible things look real, which was a game-changer.
+                </p>
+
+                <p>
+                    Because these early fantasy adaptations did so well, moviemakers realized there was a whole universe of stories waiting to be told.
+                    This opened the door for all sorts of fantasy elements to pop up in movies that aren't even direct adaptations.
+                    Suddenly, superhero movies got even more magical powers, sci-fi films started having more fantastical beasts, and even regular action movies sometimes have a touch of the extraordinary.
+                    Fantasy books basically taught Hollywood how to dream bigger.
+                </p>
+
+                <p>
+                    So, next time you're watching a movie with a cool monster, a hero with a special destiny, or a whole new world, remember that it probably owes a lot to those old fantasy novels.
+                    They didn't just give us great stories to read; they showed filmmakers how to bring those incredible ideas to life, making cinema a much more exciting and imaginative place for all of us.
+                </p>
+            </section>
+
+            <figure>
+                <a href="https://www.amazon.com/dp/B0F66HQ854" target="_blank" rel="noopener noreferrer">
+                    <img id="blog-ad" class="interactive" role="img" aria-label="Link to Book Cover Protector" src="Images/blog_images/Book_cover_protector_ad.png" alt="Book Cover Protector Ad">
+                </a>
+                <figcaption id="citation">
+                    “Humyoun Stretchable Aesthetic Protector for Paperbacks.” Amazon, https://www.amazon.com/dp/B0F66HQ854. Accessed 15 Dec. 2025.
+                </figcaption>
+            </figure>
+
+            <section class="content-text blog-article" id="article-2">
+                <h2>Why Books Still<span class="underline">Matter in a Digital World</span></h2>
+                <h3><em>by Dawson Lange</em></h3>
+                <p>
+                    In an age of constant notifications, endless scrolling, and bite-sized content, books remain a quiet rebellion against distraction.
+                    They ask for time, attention, and imagination—and in return, they offer depth, perspective, and a connection to ideas far bigger than ourselves.
+                    Whether tucked onto a nightstand or stored on an e-reader, books continue to play an essential role in how we learn, grow, and understand the world.
+                </p>
+
+                <p>
+                    Books are powerful because they let us experience life through someone else’s eyes.
+                    A novel can place us in a different century, culture, or reality, helping us build empathy and curiosity.
+                    <img class="image-blog" id="image-blog-2" src="Images/blog_images/reading-book.jpg" alt="A photo of a woman reading a book">
+                    Nonfiction books do the same in their own way, breaking down complex ideas and preserving knowledge so it can be passed from one generation to the next.
+                    Through reading, we gain insight without having to live every experience ourselves.
+                </p>
+
+                <p>
+                    There is also something deeply personal about reading. A book meets each reader where they are—its meaning can shift depending on your age, mood, or life experience.
+                    The same story can feel completely different when reread years later, revealing new layers and interpretations.
+                    This personal connection is what turns books into lifelong companions rather than disposable content.
+                </p>
+
+                <p>
+                    In a world that moves quickly, books encourage us to slow down. They create space for reflection, focus, and imagination, reminding us that not everything worth knowing can be learned in a headline.
+                    No matter how technology evolves, books remain a timeless source of knowledge, comfort, and inspiration—and that is why they will always matter.
+                </p>
+            </section>
             <a class="interactive" id="top-button" href="#top" role="button" aria-label="Back to top of webpage buton">Back to Top ↑</a>
         </div>
-    <footer>
+        </main>
+
+        <footer>
             <div class="footer-container">
                 <nav class="footer-nav" aria-label="Footer link navigation">
                     <ul>
@@ -96,5 +116,5 @@
                     <p>Discovering magic in every page since 2019.</p>
                 </div>
             </div>
-    </footer>
-</body>
+        </footer>
+    </body>
