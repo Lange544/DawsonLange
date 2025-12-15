@@ -453,6 +453,10 @@ a:focus-visible img /*blog ad*/{
     margin-bottom: 2rem;
 }
 
+.contact-form h2 {
+    margin-bottom: 1rem;
+}
+
 .contact-image {
     width: 100%;
     height: auto;   
