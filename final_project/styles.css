@@ -469,6 +469,7 @@ a:focus-visible img /*blog ad*/{
     height: auto;
     width: 25%;
     max-height: 15rem;
+    border-radius: 0.7rem;
 }
 
 .image-shop {
